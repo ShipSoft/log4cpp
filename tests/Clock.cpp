@@ -1,4 +1,4 @@
-static const char rcsid[] = "$Id$";
+static const char rcsid[] = "$Id: Clock.cpp,v 1.9 2002/09/15 22:40:50 bastiaan Exp $";
 
 /* 
  * See the COPYING file for the terms of usage and distribution.

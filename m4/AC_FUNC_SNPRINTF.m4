@@ -7,7 +7,7 @@ dnl not fit in the buffer, e.g. snprintf on Solaris and glibc <= 2.0.6.
 dnl defines HAVE_SNPRINTF if it is found, and
 dnl sets ac_cv_func_snprintf to yes, otherwise to no.
 dnl
-dnl @version $Id$
+dnl @version $Id: AC_FUNC_SNPRINTF.m4,v 1.2 2001/09/18 15:42:29 bastiaan Exp $
 dnl @author Caolan McNamara <caolan@skynet.ie>
 dnl
 AC_DEFUN([AC_FUNC_SNPRINTF],

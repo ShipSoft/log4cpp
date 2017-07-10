@@ -4,7 +4,7 @@ dnl Provides a test for the existance of the int64_t type and
 dnl defines HAVE_INT64_T if it is found. Adapted from AC_C_LONG_LONG by
 dnl Caolan McNamara <caolan@skynet.ie>
 dnl
-dnl @version $Id$
+dnl @version $Id: AC_C_INT64_T.m4,v 1.3 2002/04/21 21:47:37 bastiaan Exp $
 dnl @author Bastiaan Bakker <bastiaan.bakker@lifeline.nl>
 dnl
 AC_DEFUN([AC_C_INT64_T],
