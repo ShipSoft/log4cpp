@@ -1,7 +1,11 @@
 #!/bin/sh
 
 echo "Adding libtools."
-libtoolize --force --automake
+if [ `uname` = Darwin ]; then
+  glibtoolize --force --automake
+else
+  libtoolize --force --automake
+fi
 
 echo "Building macros."
 aclocal -I m4 $ACLOCAL_FLAGS
